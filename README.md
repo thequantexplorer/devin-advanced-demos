@@ -1,6 +1,6 @@
 # Advanced Devin demos
 
-These are fifteen Devin demos. Every demo has a starter repo you can fork or use as a template, and a page in `demos/` with the prompt to give Devin and notes on what it should find.
+These are fifteen Devin demos. Every demo has a starter repo you copy with **Use this template**, and a page in `demos/` with the prompt to give Devin and notes on what it should find.
 
 | # | Demo | Starter repo | Needs |
 | --- | --- | --- | --- |
@@ -22,7 +22,7 @@ These are fifteen Devin demos. Every demo has a starter repo you can fork or use
 
 ## How to run one
 
-1. Open the demo's page in [`demos/`](demos/) and follow its starter repo's `DEVIN_DEMO.md`. Usually that means: use the template or fork into your account, give Devin GitHub access, and paste the prompt.
+1. Open the demo's page in [`demos/`](demos/) and follow its starter repo's `DEVIN_DEMO.md`. Usually that means: create your copy with **Use this template** (keep the repo name), give Devin GitHub access, and paste the prompt.
 2. Replace `<you>` in the prompt with your GitHub user or org.
 3. Watch for approval cards. Sessions pause for you to approve things like creating an automation, saving org Knowledge, or changing an environment blueprint.
 
