@@ -10,7 +10,7 @@ These are fifteen Devin demos. Every demo has a starter repo you copy with **Use
 | 4 | [Slack bug report to repro video, Linear ticket and fix PR](demos/04-slack-triage.md) | [devin-demo-slack-triage](https://github.com/thequantexplorer/devin-demo-slack-triage) | GitHub, Slack and Linear connected to your Devin org |
 | 5 | [Devin Review catches real bugs in a PR](demos/05-pr-review.md) | [devin-demo-pr-review](https://github.com/thequantexplorer/devin-demo-pr-review) | GitHub only |
 | 6 | ["Only on iPhone" bug reproduced with video](demos/06-safari-bug.md) | [devin-demo-safari-bug](https://github.com/thequantexplorer/devin-demo-safari-bug) | GitHub |
-| 7 | [Onboarding a cold repo: blueprint plus memory](demos/07-cold-repo-onboarding.md) | [devin-demo-cold-repo-onboarding](https://github.com/thequantexplorer/devin-demo-cold-repo-onboarding) | GitHub; you approve blueprint + Knowledge |
+| 7 | [Onboarding a cold repo: blueprint plus skill](demos/07-cold-repo-onboarding.md) | [devin-demo-cold-repo-onboarding](https://github.com/thequantexplorer/devin-demo-cold-repo-onboarding) | GitHub; you approve the blueprint |
 | 8 | [Self-improving skill](demos/08-self-improving-skill.md) | [devin-demo-self-improving-skill](https://github.com/thequantexplorer/devin-demo-self-improving-skill) | GitHub only |
 | 9 | [Architecture consultation on a large OSS repo (Cal.com)](demos/09-architecture-consult.md) | [calcom/cal.com](https://github.com/calcom/cal.com) (public) | Nothing (public repo) |
 | 10 | [Voice kickoff on your phone, finish on your laptop](demos/10-voice-to-desktop.md) | [devin-demo-voice-to-desktop](https://github.com/thequantexplorer/devin-demo-voice-to-desktop) | GitHub and a phone |
@@ -24,7 +24,7 @@ These are fifteen Devin demos. Every demo has a starter repo you copy with **Use
 
 1. Open the demo's page in [`demos/`](demos/) and follow its starter repo's `DEVIN_DEMO.md`. Usually that means: create your copy with **Use this template** (keep the repo name), give Devin GitHub access, and paste the prompt.
 2. Replace `<you>` in the prompt with your GitHub user or org.
-3. Watch for approval cards. Sessions pause for you to approve things like creating an automation, saving org Knowledge, or changing an environment blueprint.
+3. Watch for approval cards. Sessions pause for you to approve things like creating an automation or changing an environment blueprint.
 
 ## Tips
 
