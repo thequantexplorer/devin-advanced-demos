@@ -1,10 +1,10 @@
 # 6. "Only on iPhone" bug reproduced with video
 
-**What it shows:** A bug that only shows up in Safari on iOS. Devin starts a macOS child session, reproduces it in the iOS Simulator or Safari, records it against a Chrome comparison, fixes it, and records the fix.
+**What it shows:** Devin starts a macOS child session, reproduces a bug that only happens in iOS Safari in the iOS Simulator, records it next to Chrome, fixes it, and records the fix.
 
 **Starter repo:** [devin-demo-safari-bug](https://github.com/thequantexplorer/devin-demo-safari-bug)
 
-**Needs:** GitHub. Use macOS Devin machines if your org has them; otherwise the prompt falls back to WebKit through Playwright.
+**Needs:** GitHub
 
 Setup steps are in the starter's [DEVIN_DEMO.md](https://github.com/thequantexplorer/devin-demo-safari-bug/blob/main/DEVIN_DEMO.md).
 
@@ -13,11 +13,11 @@ Setup steps are in the starter's [DEVIN_DEMO.md](https://github.com/thequantexpl
 ```text
 Support ticket: "Booking page shows 'Loading available times…' forever on my iPhone. Works fine on my laptop." Repo: https://github.com/<you>/devin-demo-safari-bug
 
-Reproduce this on a real Safari/WebKit engine (spin up a macOS child session with the iOS Simulator / Safari if available; otherwise WebKit via Playwright), and record video of the bug happening there versus working in Chrome. Find the root cause, fix it with a cross-browser-safe approach, add a test that would have caught it, and re-record on the same Safari/WebKit environment showing the fix. Open a PR with both recordings described and linked.
+Reproduce this in iOS Safari: start a macOS child session, open the page in Safari on the iOS Simulator, and record video of the bug happening there versus working in Chrome. Find the root cause, fix it with a cross-browser-safe approach, add a test that would have caught it, and re-record in the iOS Simulator showing the fix. Open a PR with both recordings described and linked.
 ```
 
 ## Presenter notes (spoilers)
 
 What Devin should find, so you can narrate it. Keep this out of the starter repo so Devin finds it on its own.
 
-- The slot list waits on `requestIdleCallback`, which Safari and iOS WebKit don't implement. In Safari it throws, so the times never render.
+- The slot list waits on `requestIdleCallback`, which iOS Safari doesn't implement, so it throws and the times never render.

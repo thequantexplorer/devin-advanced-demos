@@ -1,6 +1,6 @@
 # 1. Fan-out audit across six microservices
 
-**What it shows:** One prompt starts a Dynamic Workflow. Devin runs one child session per repo, collects structured findings with file:line evidence, ranks them, and opens fix PRs only where a finding is confirmed.
+**What it shows:** A Dynamic Workflow runs one child session per repo, checks for the deprecated `request` package and missing rate limits, ranks the findings with file:line evidence, and opens fix PRs only for confirmed ones.
 
 **Starter repo:** [devin-demo-fanout-audit](https://github.com/thequantexplorer/devin-demo-fanout-audit)
 

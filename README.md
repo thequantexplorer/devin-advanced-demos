@@ -1,6 +1,6 @@
 # Advanced Devin demos
 
-Fifteen demos that show Devin as an orchestrator and a teammate inside your existing tools, beyond just writing code. Each demo has a starter repo you can fork or use as a template, the exact prompt, and presenter notes with what Devin should find.
+Fifteen Devin demos. Each one has a starter repo you can fork or use as a template, the exact prompt, and presenter notes on what Devin should find.
 
 | # | Demo | Starter repo | Needs |
 | --- | --- | --- | --- |
@@ -9,7 +9,7 @@ Fifteen demos that show Devin as an orchestrator and a teammate inside your exis
 | 3 | [Sentry incident to root cause to PR](demos/03-sentry-incident.md) | [devin-demo-sentry-incident](https://github.com/thequantexplorer/devin-demo-sentry-incident) | GitHub, a Sentry account, and the Sentry MCP connected in Devin |
 | 4 | [Slack bug report to repro video, Linear ticket and fix PR](demos/04-slack-triage.md) | [devin-demo-slack-triage](https://github.com/thequantexplorer/devin-demo-slack-triage) | GitHub, Slack and Linear connected to your Devin org |
 | 5 | [Devin Review catches real bugs in a PR](demos/05-pr-review.md) | [devin-demo-pr-review](https://github.com/thequantexplorer/devin-demo-pr-review) | GitHub only |
-| 6 | ["Only on iPhone" bug reproduced with video](demos/06-safari-bug.md) | [devin-demo-safari-bug](https://github.com/thequantexplorer/devin-demo-safari-bug) | GitHub; macOS Devin machines optional |
+| 6 | ["Only on iPhone" bug reproduced with video](demos/06-safari-bug.md) | [devin-demo-safari-bug](https://github.com/thequantexplorer/devin-demo-safari-bug) | GitHub |
 | 7 | [Onboarding a cold repo: blueprint plus memory](demos/07-cold-repo-onboarding.md) | [devin-demo-cold-repo-onboarding](https://github.com/thequantexplorer/devin-demo-cold-repo-onboarding) | GitHub; you approve blueprint + Knowledge |
 | 8 | [Self-improving skill](demos/08-self-improving-skill.md) | [devin-demo-self-improving-skill](https://github.com/thequantexplorer/devin-demo-self-improving-skill) | GitHub only |
 | 9 | [Architecture consultation on a large OSS repo (Cal.com)](demos/09-architecture-consult.md) | [calcom/cal.com](https://github.com/calcom/cal.com) (public) | Nothing (public repo) |

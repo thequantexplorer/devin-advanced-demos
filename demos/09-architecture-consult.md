@@ -1,6 +1,6 @@
 # 9. Architecture consultation on a large OSS repo (Cal.com)
 
-**What it shows:** Ask Devin and DeepWiki as an architecture consultant on day one, before anyone writes code. Devin returns a cited architecture diagram and a ranked risk list for a multi-tenant change.
+**What it shows:** Devin answers an architecture question about a large codebase it hasn't seen (Cal.com), using Ask Devin and DeepWiki, with a cited diagram and a ranked risk list. No code is written.
 
 **Starter repo:** [calcom/cal.com](https://github.com/calcom/cal.com) (public)
 

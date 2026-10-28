@@ -1,6 +1,6 @@
 # 5. Devin Review catches real bugs in a PR
 
-**What it shows:** Devin Review on a PR that looks reasonable but has money-handling and security bugs. Review leaves ranked inline comments with suggested fixes.
+**What it shows:** Devin Review runs on a PR that contains refund and webhook bugs and posts ranked inline comments with suggested fixes.
 
 **Starter repo:** [devin-demo-pr-review](https://github.com/thequantexplorer/devin-demo-pr-review)
 

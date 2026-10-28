@@ -1,6 +1,6 @@
 # 13. Scheduled watchdog automation
 
-**What it shows:** Devin working on a schedule with nobody prompting it. It creates a Devin Automation that checks tests, advisories, outdated packages and bug issues every weekday and reports to Slack, opening a PR or issue when something breaks.
+**What it shows:** Devin creates an Automation that runs tests, `npm audit`, `npm outdated` and a bug-issue check every weekday, posts the result to Slack, and opens a PR or issue when something fails.
 
 **Starter repo:** [devin-demo-scheduled-watchdog](https://github.com/thequantexplorer/devin-demo-scheduled-watchdog)
 

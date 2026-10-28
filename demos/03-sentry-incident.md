@@ -1,6 +1,6 @@
 # 3. Sentry incident to root cause to PR
 
-**What it shows:** Devin as the 3 a.m. on-call engineer. It reads a live Sentry issue through MCP, reproduces it locally, fixes it with a regression test, and comments the PR link back on the Sentry issue.
+**What it shows:** Devin reads a Sentry issue through MCP, reproduces it locally, opens a fix PR with a regression test, and comments the PR link on the Sentry issue.
 
 **Starter repo:** [devin-demo-sentry-incident](https://github.com/thequantexplorer/devin-demo-sentry-incident)
 

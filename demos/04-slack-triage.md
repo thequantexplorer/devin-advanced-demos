@@ -1,6 +1,6 @@
 # 4. Slack bug report to repro video, Linear ticket and fix PR
 
-**What it shows:** Devin working inside the team's existing tools. A customer report in Slack turns into a recorded repro, a Linear ticket with that video, and a fix PR, with every link posted back in the thread.
+**What it shows:** Tag Devin on a customer bug report in Slack. It records a repro, files a Linear ticket with the video, opens a fix PR, and posts the links in the thread.
 
 **Starter repo:** [devin-demo-slack-triage](https://github.com/thequantexplorer/devin-demo-slack-triage)
 
