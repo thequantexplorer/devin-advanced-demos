@@ -21,7 +21,7 @@ With Sentry connected, use this prompt instead:
 ```text
 It's 3am and checkout is throwing 500s in production. You're on call.
 
-Use the Sentry MCP (org <your-sentry-org>, project <your-sentry-project>) to pull the top unresolved issue, its stack trace, and event breadcrumbs/tags. Then clone https://github.com/<you>/devin-demo-sentry-incident, reproduce the failure locally (`npm run traffic` replays production carts against a local server), find the root cause, and ship a PR with the fix plus a regression test that fails before and passes after. In the PR, include the Sentry issue ID, blast radius (which carts/codes are affected), and a short incident summary. Do not resolve the Sentry issue until the PR is up; then comment on it with the PR link.
+Clone https://github.com/<you>/devin-demo-sentry-incident, start the server with the `SENTRY_DSN` secret set, and run `npm run traffic` two or three times so the failing production checkouts reach Sentry. Then use the Sentry MCP (org <your-sentry-org>, project <your-sentry-project>) to pull the top unresolved issue, its stack trace, and event breadcrumbs/tags. Find the root cause from the Sentry issue, and ship a PR with the fix plus a regression test that fails before and passes after. In the PR, include the Sentry issue ID, blast radius (which carts/codes are affected), and a short incident summary. Do not resolve the Sentry issue until the PR is up; then comment on it with the PR link.
 ```
 
 ## Presenter notes (spoilers)

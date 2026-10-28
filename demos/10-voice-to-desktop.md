@@ -1,21 +1,21 @@
-# 10. Voice kickoff on iOS, finish in Desktop or CLI
+# 10. Voice kickoff on your phone, finish on your laptop
 
-**What it shows:** Start a feature by voice in the Devin iOS app. Devin opens a draft PR, and you continue the same session in Devin Desktop or the CLI.
+**What it shows:** Start a feature by voice on your phone. Devin opens a draft PR, and you pick up the same session in the web app on your laptop.
 
 **Starter repo:** [devin-demo-voice-to-desktop](https://github.com/thequantexplorer/devin-demo-voice-to-desktop)
 
-**Needs:** GitHub, plus the Devin iOS app and Devin Desktop or the CLI
+**Needs:** GitHub and a phone
 
 Setup steps are in the starter's [DEVIN_DEMO.md](https://github.com/thequantexplorer/devin-demo-voice-to-desktop/blob/main/DEVIN_DEMO.md).
 
-> Say the prompt into the Devin iOS app. When the draft PR is up, open the same session in Devin Desktop or the CLI to review, tweak and merge.
+> On your phone, open Devin, start a voice call and say the prompt. When the draft PR is up, open the same session at app.devin.ai on your laptop to review, tweak and merge. Devin Desktop and the CLI can open it too, if you use them.
 
 ## Prompt
 
 ```text
 Hey Devin — on https://github.com/<you>/devin-demo-voice-to-desktop, add a 90-day uptime bar to each component on the status page, like the ones on GitHub's status page: green/amber/red per day computed from incident history, with a hover tooltip. Get it working and push a draft PR; I'll pick it up from my laptop to review and tweak.
 
-When the draft PR is up, stop and summarize where you left off and exactly what's left, so this can be continued from Devin Desktop/CLI with full context.
+When the draft PR is up, stop and summarize where you left off and exactly what's left, so I can continue this session from my laptop with full context.
 ```
 
 ## Presenter notes (spoilers)

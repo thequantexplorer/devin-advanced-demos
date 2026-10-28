@@ -13,7 +13,7 @@ These are fifteen Devin demos. Every demo has a starter repo you copy with **Use
 | 7 | [Onboarding a cold repo: blueprint plus memory](demos/07-cold-repo-onboarding.md) | [devin-demo-cold-repo-onboarding](https://github.com/thequantexplorer/devin-demo-cold-repo-onboarding) | GitHub; you approve blueprint + Knowledge |
 | 8 | [Self-improving skill](demos/08-self-improving-skill.md) | [devin-demo-self-improving-skill](https://github.com/thequantexplorer/devin-demo-self-improving-skill) | GitHub only |
 | 9 | [Architecture consultation on a large OSS repo (Cal.com)](demos/09-architecture-consult.md) | [calcom/cal.com](https://github.com/calcom/cal.com) (public) | Nothing (public repo) |
-| 10 | [Voice kickoff on iOS, finish in Desktop or CLI](demos/10-voice-to-desktop.md) | [devin-demo-voice-to-desktop](https://github.com/thequantexplorer/devin-demo-voice-to-desktop) | GitHub, plus the Devin iOS app and Devin Desktop or the CLI |
+| 10 | [Voice kickoff on your phone, finish on your laptop](demos/10-voice-to-desktop.md) | [devin-demo-voice-to-desktop](https://github.com/thequantexplorer/devin-demo-voice-to-desktop) | GitHub and a phone |
 | 11 | [Exploit-first security remediation](demos/11-security-exploits.md) | [devin-demo-security-exploits](https://github.com/thequantexplorer/devin-demo-security-exploits) | GitHub only |
 | 12 | [Performance fix with p50/p95/p99 proof](demos/12-performance.md) | [devin-demo-performance](https://github.com/thequantexplorer/devin-demo-performance) | GitHub only |
 | 13 | [Scheduled watchdog automation](demos/13-scheduled-watchdog.md) | [devin-demo-scheduled-watchdog](https://github.com/thequantexplorer/devin-demo-scheduled-watchdog) | GitHub and Slack connected to your Devin org |
