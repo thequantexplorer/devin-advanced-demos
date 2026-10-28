@@ -1,6 +1,6 @@
 # Advanced Devin demos
 
-Fifteen Devin demos. Each one has a starter repo you can fork or use as a template, the exact prompt, and presenter notes on what Devin should find.
+These are fifteen Devin demos. Every demo has a starter repo you can fork or use as a template, and a page in `demos/` with the prompt to give Devin and notes on what it should find.
 
 | # | Demo | Starter repo | Needs |
 | --- | --- | --- | --- |
