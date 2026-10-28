@@ -1,14 +1,22 @@
-# 3. Sentry incident to root cause to PR
+# 3. Production error to root cause to PR
 
-**What it shows:** Devin reads a Sentry issue through MCP, reproduces it locally, opens a fix PR with a regression test, and comments the PR link on the Sentry issue.
+**What it shows:** Checkout is returning 500 errors. Devin reproduces them by replaying production traffic locally, finds the cause in the logs, and opens a fix PR with a regression test. With Sentry connected, it starts from the live Sentry issue instead.
 
 **Starter repo:** [devin-demo-sentry-incident](https://github.com/thequantexplorer/devin-demo-sentry-incident)
 
-**Needs:** GitHub, a Sentry account, and the Sentry MCP connected in Devin
+**Needs:** GitHub. Sentry is optional.
 
 Setup steps are in the starter's [DEVIN_DEMO.md](https://github.com/thequantexplorer/devin-demo-sentry-incident/blob/main/DEVIN_DEMO.md).
 
 ## Prompt
+
+```text
+It's 3am and checkout is throwing 500s in production. You're on call.
+
+Clone https://github.com/<you>/devin-demo-sentry-incident, start the server, and reproduce the failure with `npm run traffic` (it replays a slice of production checkout traffic against the local server). Use the server logs and stack trace to find the root cause, then ship a PR with the fix plus a regression test that fails before and passes after. In the PR, include the blast radius (which carts/codes are affected) and a short incident summary.
+```
+
+With Sentry connected, use this prompt instead:
 
 ```text
 It's 3am and checkout is throwing 500s in production. You're on call.

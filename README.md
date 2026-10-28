@@ -6,7 +6,7 @@ These are fifteen Devin demos. Every demo has a starter repo you copy with **Use
 | --- | --- | --- | --- |
 | 1 | [Fan-out audit across six microservices](demos/01-fanout-audit.md) | [devin-demo-fanout-audit](https://github.com/thequantexplorer/devin-demo-fanout-audit) | GitHub only |
 | 2 | [Java 8 to Java 17 migration with proof](demos/02-java-migration.md) | [devin-demo-java-migration](https://github.com/thequantexplorer/devin-demo-java-migration) | GitHub only (Devin installs JDK 8 and 17 itself) |
-| 3 | [Sentry incident to root cause to PR](demos/03-sentry-incident.md) | [devin-demo-sentry-incident](https://github.com/thequantexplorer/devin-demo-sentry-incident) | GitHub, a Sentry account, and the Sentry MCP connected in Devin |
+| 3 | [Production error to root cause to PR](demos/03-sentry-incident.md) | [devin-demo-sentry-incident](https://github.com/thequantexplorer/devin-demo-sentry-incident) | GitHub (Sentry optional) |
 | 4 | [Slack bug report to repro video, Linear ticket and fix PR](demos/04-slack-triage.md) | [devin-demo-slack-triage](https://github.com/thequantexplorer/devin-demo-slack-triage) | GitHub, Slack and Linear connected to your Devin org |
 | 5 | [Devin Review catches real bugs in a PR](demos/05-pr-review.md) | [devin-demo-pr-review](https://github.com/thequantexplorer/devin-demo-pr-review) | GitHub only |
 | 6 | ["Only on iPhone" bug reproduced with video](demos/06-safari-bug.md) | [devin-demo-safari-bug](https://github.com/thequantexplorer/devin-demo-safari-bug) | GitHub |
